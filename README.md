@@ -10,7 +10,7 @@ I was playing around with.
 
 Searching for some example of using webjars with spray didn't give any really clear answer how to do this.
 However it turned out to be really simple to get it working by using the built in directive
-[getfromresourcedirectory](http://spray.io/documentation/1.2.1/spray-routing/file-and-resource-directives/getFromResourceDirectory/#getfromresourcedirectory).
+[getFromResourceDirectory](http://spray.io/documentation/1.2.1/spray-routing/file-and-resource-directives/getFromResourceDirectory/#getfromresourcedirectory).
 
 Since webjars essentially is files stored in jar files, that makes them available on the classpath.
 This directive can be used to make a specific directory on the classpath available through http.
