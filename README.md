@@ -5,17 +5,18 @@ This is an example demonstrating usage of [webjars](http://www.webjars.org/) tog
 [spray-routing](http://spray.io/documentation/1.2.1/spray-routing/).
 
 Since having used webjars together with [playframework](https://www.playframework.com/) for some time, this was the
-natural choice for getting some dependencies for static assets into a [spray.io](http://www.pray.io/) project that
+natural choice for getting some static assets dependencies into a [spray.io](http://www.pray.io/) project that
 I was playing around with.
 
 Searching for some example of using webjars with spray didn't give any really clear answer how to do this.
-However it turned out to be really simple to get it working by using the build in directive
+However it turned out to be really simple to get it working by using the buildt in directive
 [getfromresourcedirectory](http://spray.io/documentation/1.2.1/spray-routing/file-and-resource-directives/getFromResourceDirectory/#getfromresourcedirectory).
 
-Since webjars essentially is files stored in jar files available on the classpath this directive can be used
-to map in a specific directory on the classpath and make it available through http.
+Since webjars essentially is files stored in jar files, that makes them available on the classpath.
+This directive can be used to make a specific directory on the classpath available through http.
 
-The following code shows how to set up a route to make all webjars available at the path **/webjars**.
+The following code shows how to set up a route to make all webjars that the project depends on
+available at the path **/webjars**.
 
 ```scala   
 pathPrefix("webjars") {
