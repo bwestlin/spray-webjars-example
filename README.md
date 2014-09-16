@@ -37,7 +37,8 @@ If then the jquery webjar was added as a maven dependency, ie:
  <script type="text/javascript" src="/webjars/jquery/2.1.1/jquery.min.js"></script>
  ```
                                                                                                                                                                                                                                    
-## Running ##                                                                                                                                                                                                                      
+## Running ##
+                                                                                                                                                                                                                      
 The easiest way to run this application is with the following command in the base directory:                                                                                                                                    
 ```                                                                                                                                                                                                                                
 ./activator run                                                                                                                                                                                                                           
