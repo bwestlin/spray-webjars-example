@@ -9,7 +9,7 @@ natural choice for getting some static assets dependencies into a [spray.io](htt
 I was playing around with.
 
 Searching for some example of using webjars with spray didn't give any really clear answer how to do this.
-However it turned out to be really simple to get it working by using the buildt in directive
+However it turned out to be really simple to get it working by using the built in directive
 [getfromresourcedirectory](http://spray.io/documentation/1.2.1/spray-routing/file-and-resource-directives/getFromResourceDirectory/#getfromresourcedirectory).
 
 Since webjars essentially is files stored in jar files, that makes them available on the classpath.
