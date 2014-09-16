@@ -41,7 +41,7 @@ If then the jquery webjar was added as a maven dependency, ie:
                                                                                                                                                                                                                       
 The easiest way to run this application is with the following command in the base directory:                                                                                                                                    
 ```                                                                                                                                                                                                                                
-./activator run                                                                                                                                                                                                                           
+./activator run
 ```                                                                                                                                                                                                                                
 After this the application can be accessed from a web browser at **http://localhost:8080/**.                                                              
                                                                                                                                                                                                                                    
